@@ -14,7 +14,7 @@ if uploaded_file is not None:
     st.write("Загруженный датасет:", X_test)
 
 else:
-    st.title("Получить предсказания пожара.")
+    st.title("Получить предсказания мошеннической транзакции.")
 
 
     st.header("Distance from home")
