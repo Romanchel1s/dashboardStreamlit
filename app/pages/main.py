@@ -52,19 +52,19 @@ else:
 button_clicked = st.button("Предсказать")
 
 if button_clicked:
-    with open('../models/KNN_model.pkl', 'rb') as file:
+    with open('models/KNN_model.pkl', 'rb') as file:
         knn_model = joblib.load(file)
 
-    with open('../models/Kmeans_model.pkl', 'rb') as file:
+    with open('models/Kmeans_model.pkl', 'rb') as file:
          kmeans_model= joblib.load(file)
     
-    with open('../models/Stacking_model.pkl', 'rb') as file:
+    with open('models/Stacking_model.pkl', 'rb') as file:
         stacking_model = joblib.load(file)
     
-    with open('../models/Bagging_model.pkl', 'rb') as file:
+    with open('models/Bagging_model.pkl', 'rb') as file:
         bagging_model = joblib.load(file)
     
-    with open('../models/GradientBoostingClassifier_model.pkl', 'rb') as file:
+    with open('models/GradientBoostingClassifier_model.pkl', 'rb') as file:
         gradboost_model = joblib.load(file)
 
         
