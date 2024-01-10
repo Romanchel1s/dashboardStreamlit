@@ -55,7 +55,7 @@ if button_clicked:
     with open('models/KNN_model.pkl', 'rb') as file:
         knn_model = joblib.load(file)
 
-    with open('models/Kmeans_model.pkl', 'rb') as file:
+    with open('models/KMeans_model.pkl', 'rb') as file:
          kmeans_model= joblib.load(file)
     
     with open('models/Stacking_model.pkl', 'rb') as file:
