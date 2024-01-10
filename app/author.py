@@ -6,4 +6,4 @@ st.title("Разработка дашборда для моделей ML и ан
 st.header("Автор:")
 st.write("ФИО:  Пуртов Роман Сергеевич")
 st.write("Группа: ФИТ-221")
-st.image("../data/photo.jpg")
+st.image("data/photo.jpg")
