@@ -128,25 +128,25 @@ def page_predictions():
         st.title("Получить предсказание мошеннической транзакции.")
 
 
-        st.header("Distance from home")
+        st.header("Расстояние от дома (км)")
         distance_from_home = st.number_input("Число:", value = 10.8299)
 
-        st.header("Distance from last transaction")
+        st.header("Расстояние от последней транзакции (км)")
         distance_from_last_transaction = st.number_input("Число:", value = 0.1756)
 
-        st.header("Ratio to median purchase price")
+        st.header("Отличие покупки от медианной")
         ratio_to_median_purchase = st.number_input("Число:", value = 1.1756)
 
-        st.header("Repeat retailer")
+        st.header("Повторный продавец")
         repeat_relailer = st.number_input("Число 0 или 1:", value = 1)
 
-        st.header("Used chip")
+        st.header("С использованием чипа")
         used_chip = st.number_input("Число 0 или 1:", value = 0)
 
-        st.header("Used pin number")
+        st.header("С импользованием пин-кода")
         used_pin_number = st.number_input("Число 1 или 0:", value = 1)
 
-        st.header("Online order")
+        st.header("Онлайн заказ")
         online_order = st.number_input("Число 1 или 0:", value = 0)
 
 
